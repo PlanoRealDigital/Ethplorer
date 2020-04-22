@@ -5,7 +5,7 @@ header("HTTP/1.0 200 OK");
 
 $aConfig = require_once dirname(__FILE__) . '/service/config.php';
 
-$sLink = "https://ethplorer.io";
+$sLink = "http://localhost";
 
 if(isset($_GET["link"]) && strlen($_GET["link"])>0){
     $sLink = $_GET["link"];
